@@ -1,3 +1,5 @@
+/*global*/
+
 * {
   margin: 0;
   padding: 0;
@@ -10,11 +12,13 @@
   --mainBlack: #222;
   --mainGrey: #ececec;
   --darkGrey: #cfcfcf;
-  --mainTransition: all 0.3s linear;
   --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
+
+/*navbar*/
+/*while screen is less than 768px*/
 
 .nav-header {
   display: grid;
@@ -37,7 +41,6 @@
 .nav-links {
   height: 0;
   overflow: hidden;
-  transition: var(--mainTransition);
   list-style-type: none;
 }
 .nav-links a {
@@ -45,7 +48,6 @@
   text-decoration: none;
   padding: 1rem 0;
   color: var(--mainBlack);
-  transition: var(--mainTransition);
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
@@ -56,6 +58,8 @@
 .show-nav {
   height: 250px;
 }
+/*navbar when screen is greater than 768px*/
+
 @media screen and (min-width: 768px) {
   .nav-btn {
     display: none;
@@ -72,5 +76,42 @@
   }
   .nav-links a {
     margin: 1rem;
+  }
+}
+
+/*art page css*/
+.art-list {
+  border: 2px solid var(--primaryColor);
+  margin-top: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 5rem;
+}
+.art-list-1 {
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.art-img-pic {
+  padding: 2rem;
+  max-width: 350px;
+  max-height: 400px;
+}
+@media screen and (max-width: 768px) {
+  .art-list {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .art-piece {
+    margin: 0.5rem;
+    max-width: 500px;
+  }
+
+  .art-img-pic {
+    max-width: 400px;
+    padding: 1.5rem;
   }
 }

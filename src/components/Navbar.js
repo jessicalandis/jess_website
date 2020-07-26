@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import logo from "../images/jess_webpic.jpeg";
+import logo from "../logo/jess_webpic.jpeg";
 import { FaHeart } from "react-icons/fa";
 
 export default class Navbar extends Component {
