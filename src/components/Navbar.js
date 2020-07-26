@@ -30,19 +30,29 @@ export default class Navbar extends Component {
             className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
           >
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={this.handleToggle}>
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/Artwork">Artwork</Link>
+              <Link to="/artwork" onClick={this.handleToggle}>
+                Artwork
+              </Link>
             </li>
             <li>
-              <Link to="/Travel">Travel</Link>
+              <Link to="/travel" onClick={this.handleToggle}>
+                Travel
+              </Link>
             </li>
             <li>
-              <Link to="/Coding">Coding</Link>
+              <Link to="/coding" onClick={this.handleToggle}>
+                Coding
+              </Link>
             </li>
             <li>
-              <Link to="/About">About</Link>
+              <Link to="/about" onClick={this.handleToggle}>
+                About
+              </Link>
             </li>
           </ul>
         </div>
