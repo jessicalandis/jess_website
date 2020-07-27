@@ -97,7 +97,7 @@
 }
 .art-img-pic {
   padding: 2rem;
-  max-width: 300px;
+  max-width: 250px;
   max-height: 400px;
 }
 @media screen and (max-width: 768px) {
