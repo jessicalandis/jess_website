@@ -10,19 +10,25 @@
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
-  --mainGrey: #ececec;
+  --mainGrey: #cfdde2;
   --darkGrey: #cfcfcf;
   --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
-
+body {
+  padding-top: 80px;
+}
 /*navbar*/
 /*while screen is less than 768px*/
-
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--primaryColor);
+}
 .nav-header {
-  display: grid;
-  grid-template-columns: 4fr 1fr;
   padding: 1rem;
 }
 .nav-btn {
@@ -30,13 +36,16 @@
   border: none;
   cursor: pointer;
   outline: none;
+  position: absolute;
+  top: 45px;
+  right: 50px;
 }
 .imgpic {
-  max-width: 7rem;
+  max-width: 5em;
 }
 .nav-icon {
   font-size: 1.5rem;
-  color: var(--primaryColor);
+  color: var(--mainGrey);
 }
 .nav-links {
   height: 0;
@@ -53,7 +62,7 @@
   font-weight: 400;
 }
 .nav-links a:hover {
-  color: var(--primaryColor);
+  color: var(--mainGrey);
 }
 .show-nav {
   height: 250px;
@@ -81,7 +90,7 @@
 
 /*art page css*/
 .art-list {
-  border: 2px solid var(--primaryColor);
+  border: 2px solid var(--mainGrey);
   margin-top: 5rem;
   margin-left: 3rem;
   margin-right: 3rem;
@@ -118,17 +127,17 @@
 
 /*about section*/
 .container {
-  border: 2px solid var(--primaryColor);
+  border: 2px solid var(--mainGrey);
   margin-top: 5rem;
   margin-left: 3rem;
   margin-right: 3rem;
   margin-bottom: 5rem;
 }
 .about-img-container img {
-  max-width: 200px;
+  max-width: 275px;
 }
 .extra-pics {
-  max-width: 250px;
+  max-width: 150px;
 }
 .info-container {
   margin: 1rem;
@@ -136,6 +145,8 @@
   flex-wrap: wrap;
   flex-direction: row;
   text-align: center;
+  justify-content: center;
+  line-height: 1.2rem;
 }
 
 .about-list-1 {
@@ -145,26 +156,33 @@
   justify-content: space-around;
   align-items: center;
   text-align: center;
+  font-size: 0.8rem;
 }
 .about-img-pic {
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 0.5rem;
-  max-width: 350px;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+  max-width: 275px;
   max-height: 400px;
 }
-.about-img-pic p {
-  display: inline-block;
-  padding-bottom: 3rem;
+.about-p {
+  padding-bottom: 1rem;
 }
+.about-text p {
+  padding-top: 1rem;
+}
+.about-text h3 {
+  padding-top: 0.5rem;
+}
+
 .renderedList:before {
-  content: ""; /* This is necessary for the pseudo element to work. */
-  display: block; /* This will put the pseudo element on its own line. */
-  margin: 0 auto; /* This will center the border. */
-  width: 50%; /* Change this to whatever width you want. */
-  padding-top: 20px; /* This creates some space between the element and the border. */
-  border-bottom: 1px solid var(--primaryColor); /* This creates the border. Replace black with whatever color you want. */
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 20px;
+  border-bottom: 1px solid var(--mainGrey);
 }
 
 @media screen and (min-width: 768px) {
@@ -173,31 +191,36 @@
     grid-template-columns: 1fr auto;
     text-align: left;
   }
-  .about-list1 {
-    width: 100%;
-    height: auto;
-    min-height: 300px;
-    min-width: 250px;
-    max-height: 400px;
-    max-width: 300px;
-    text-align: center;
+
+  .about-text {
+    padding: 1rem;
   }
+
   .about-info1 img {
     justify-content: center;
+    max-height: 20rem;
   }
+
   .about-p {
     padding-bottom: 1rem;
+    font-size: 0.8rem;
   }
   .about-list-1 {
     padding-bottom: 2rem;
     justify-content: center;
   }
   .renderedList:before {
-    content: ""; /* This is necessary for the pseudo element to work. */
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 50%; /* Change this to whatever width you want. */
-    padding-top: 20px; /* This creates some space between the element and the border. */
-    border-bottom: 1px solid var(--primaryColor); /* This creates the border. Replace black with whatever color you want. */
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+    border-bottom: 1px solid var(--mainGrey);
   }
+}
+
+/*coding page*/
+
+.codingpic {
+  max-width: 300px;
 }

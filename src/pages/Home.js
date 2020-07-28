@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import pic1 from "../logo/desk.jpeg";
 import AboutInfoList from "../components/about/AboutInfoList";
 
-export default class About extends Component {
+export default class Home extends Component {
   render() {
     return (
       <div className="container">
@@ -11,7 +11,7 @@ export default class About extends Component {
             <img src={pic1} alt="me at desk" />
           </div>
           <div className="about-text">
-            <h3>Hi there! I'm Jess!</h3>
+            <h3>Hi there! I'm Jess.</h3>
             <p>
               Welcome to my website! I'm so excited you've stopped by to check
               it out. In these pages you will what I hold nearest and dearest to
