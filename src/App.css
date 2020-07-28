@@ -129,8 +129,8 @@ body {
 .container {
   border: 2px solid var(--mainGrey);
   margin-top: 5rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   margin-bottom: 5rem;
 }
 .about-img-container img {
@@ -261,8 +261,8 @@ body {
 .travel-comp {
   border: 2px solid var(--mainGrey);
   margin-top: 5rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   margin-bottom: 5rem;
 }
 .cityList {
