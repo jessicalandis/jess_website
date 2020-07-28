@@ -298,6 +298,9 @@ body {
     align-items: center;
     justify-content: space-evenly;
   }
+  .cityList {
+    margin: 1.5rem;
+  }
   .travel-text-container {
     margin-left: 0;
   }
