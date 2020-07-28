@@ -278,7 +278,7 @@ body {
   max-height: 400px;
 }
 .travel-text-container {
-  padding-left: 1.5rem;
+  margin-left: 1.5rem;
 }
 .travel-text-container h1 {
   padding-bottom: 1rem;
@@ -295,6 +295,9 @@ body {
     align-items: center;
     justify-content: space-evenly;
   }
+  .travel-text-container {
+    margin-left: 0;
+  }
   .travel-text-container h1 {
     padding-top: 0.5rem;
     text-align: center;
@@ -303,6 +306,6 @@ body {
     text-align: center;
   }
   .travel-text-container p {
-    text-align: center;
+    text-align: left;
   }
 }
