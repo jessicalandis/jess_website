@@ -125,7 +125,7 @@ body {
   }
 }
 
-/*about section*/
+/*home/about section*/
 .container {
   border: 2px solid var(--mainGrey);
   margin-top: 5rem;
@@ -142,8 +142,8 @@ body {
 }
 .info-container {
   margin-top: 2rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-bottom: 2rem;
   display: flex;
   flex-wrap: wrap;
@@ -160,7 +160,6 @@ body {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  font-size: 0.8rem;
 }
 .about-img-pic {
   margin-top: 2rem;
@@ -197,6 +196,10 @@ body {
     display: grid;
     grid-template-columns: 1fr auto;
     text-align: left;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
   }
 
   .about-info1 img {
@@ -306,6 +309,6 @@ body {
     text-align: center;
   }
   .travel-text-container p {
-    text-align: left;
+    text-align: center;
   }
 }
