@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import pic1 from "../logo/desk.jpeg";
 import AboutInfoList from "../components/about/AboutInfoList";
+import { Link } from "react-router-dom";
 
 export default class Home extends Component {
   render() {
@@ -14,10 +15,16 @@ export default class Home extends Component {
             <h3>Hi there! I'm Jess.</h3>
             <p>
               Welcome to my website! I'm so excited you've stopped by to check
-              it out. In these pages you will what I hold nearest and dearest to
-              my heart. Enjoy taking a look through my artwork and travel
-              diaries. I've built this website from scratch using React, HTML,
-              and CSS and am so proud to say it's all mine :)
+              it out. I decided I needed somewhere other than Instagram to show
+              my drawings
+              <Link to="https://www.instagram.com/jessingsketching">
+                (@jessingsketching)
+              </Link>{" "}
+              and what better place than a portfolio wesbite I coded myself! I
+              built this website entirely on my own using JavaScript, React,
+              HTML, and CSS. Enjoy taking a look through my artwork and travel
+              diaries. Drop me a note on my drawing or personal Instagram if you
+              want to connect (@lawofthelandis)
             </p>
           </div>
         </div>
