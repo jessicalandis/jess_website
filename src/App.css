@@ -129,18 +129,22 @@ body {
 .container {
   border: 2px solid var(--mainGrey);
   margin-top: 5rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
   margin-bottom: 5rem;
 }
 .about-img-container img {
-  max-width: 275px;
+  max-width: 300px;
+  margin-bottom: 1rem;
 }
 .extra-pics {
   max-width: 150px;
 }
 .info-container {
-  margin: 1rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -166,6 +170,7 @@ body {
   max-width: 275px;
   max-height: 400px;
 }
+
 .about-p {
   padding-bottom: 1rem;
 }
@@ -181,8 +186,10 @@ body {
   display: block;
   margin: 0 auto;
   width: 50%;
-  padding-top: 20px;
   border-bottom: 1px solid var(--mainGrey);
+}
+.about-h3 {
+  padding-bottom: 0.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -192,19 +199,17 @@ body {
     text-align: left;
   }
 
-  .about-text {
-    padding: 1rem;
-  }
-
   .about-info1 img {
     justify-content: center;
     max-height: 20rem;
   }
-
+  .about-text {
+    padding-left: 1.5rem;
+  }
   .about-p {
     padding-bottom: 1rem;
-    font-size: 0.8rem;
   }
+
   .about-list-1 {
     padding-bottom: 2rem;
     justify-content: center;
@@ -214,7 +219,6 @@ body {
     display: block;
     margin: 0 auto;
     width: 50%;
-    padding-top: 20px;
     border-bottom: 1px solid var(--mainGrey);
   }
 }
@@ -251,4 +255,54 @@ body {
   padding-top: 1rem;
   color: var(--mainWhite);
   background-color: var(--primaryColor);
+}
+
+/*travel*/
+.travel-comp {
+  border: 2px solid var(--mainGrey);
+  margin-top: 5rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 5rem;
+}
+.cityList {
+  margin: 3rem;
+}
+.allcities {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding-bottom: 2rem;
+}
+.travel-img-pic {
+  max-width: 300px;
+  max-height: 400px;
+}
+.travel-text-container {
+  padding-left: 1.5rem;
+}
+.travel-text-container h1 {
+  padding-bottom: 1rem;
+}
+.travel-text-container h4 {
+  padding-bottom: 0.7rem;
+}
+
+@media screen and (max-width: 768px) {
+  .allcities {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .travel-text-container h1 {
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+  .travel-text-container h4 {
+    text-align: center;
+  }
+  .travel-text-container p {
+    text-align: center;
+  }
 }
