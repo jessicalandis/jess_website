@@ -8,6 +8,7 @@ import Coding from "./pages/Coding";
 import Travel from "./pages/Travel";
 import Artwork from "./pages/Artwork";
 import Error from "./pages/Error";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/coding" component={Coding} />
         <Route component={Error} />
       </Switch>
+      <Footer />
     </>
   );
 }

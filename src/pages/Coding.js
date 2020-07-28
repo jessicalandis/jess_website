@@ -4,9 +4,11 @@ import logo from "../logo/jesscodes.jpeg";
 export default class Coding extends Component {
   render() {
     return (
-      <div className="coding-div">
-        <img className="codingpic" src={logo} alt="image " />
-        <h2>This page is currently under construction...</h2>
+      <div className="coding-container">
+        <div className="coding-div">
+          <h2>This page is currently under construction...</h2>
+          <img className="codingpic" src={logo} alt="image " />
+        </div>
       </div>
     );
   }
