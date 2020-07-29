@@ -12,7 +12,7 @@
   --offWhite: #f7f7f7;
   --mainBlack: #222;
   --mainGrey: #cfdde2;
-  --darkGrey: #cfcfcf;
+  --darkGrey: #2c2f2f;
   --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
@@ -44,8 +44,8 @@ body {
   cursor: pointer;
   outline: none;
   position: absolute;
-  top: 5px;
-  right: 50px;
+  top: 1.7rem;
+  right: 3rem;
 }
 
 .nav-icon {
@@ -56,17 +56,15 @@ body {
   height: 0;
   overflow: hidden;
   list-style-type: none;
-  padding: 0.5rem;
   color: var(--mainGrey);
 }
 .nav-links a {
   display: block;
   text-decoration: none;
-
   color: var(--mainBlack);
   text-align: center;
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: bold;
 }
 .nav-links a:hover {
   color: var(--mainGrey);
@@ -90,6 +88,7 @@ body {
     display: flex;
     text-align: center;
     padding-right: 2rem;
+    padding-top: 0.5rem;
     color: var(--mainWhite);
   }
   .nav-links a {
@@ -143,6 +142,7 @@ body {
   margin-left: 3rem;
   margin-right: 3rem;
   margin-bottom: 5rem;
+  color: var(--darkGrey);
 }
 .about-img-container img {
   max-width: 300px;
@@ -183,6 +183,7 @@ body {
 
 .about-p {
   padding-bottom: 1rem;
+  font-size: 0.8rem;
 }
 .about-text p {
   padding-top: 1rem;
@@ -200,6 +201,7 @@ body {
 }
 .about-h3 {
   padding-bottom: 0.5rem;
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -248,6 +250,7 @@ body {
   width: 50%;
   padding-top: 1rem;
   padding-bottom: 2rem;
+  color: var(--darkGrey);
 }
 .coding-container {
   border: 2px solid var(--mainGrey);
@@ -274,6 +277,7 @@ body {
 /*travel*/
 .travel-comp {
   border: 2px solid var(--mainGrey);
+  color: var(--darkGrey);
   margin-top: 5rem;
   margin-left: 3rem;
   margin-right: 3rem;
