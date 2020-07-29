@@ -247,13 +247,11 @@ body {
 
 .codingpic {
   max-width: 15rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-  color: var(--darkGrey);
 }
 .coding-container {
   border: 2px solid var(--mainGrey);
@@ -266,11 +264,15 @@ body {
   display: grid;
   text-align: center;
   padding-top: 1rem;
+  color: var(--darkGrey);
 }
 @media screen and (min-width: 768px) {
   .coding-container {
     margin-left: 5rem;
     margin-right: 5rem;
+  }
+  .codingpic {
+    max-width: 20rem;
   }
 }
 /*footer*/
