@@ -15,6 +15,12 @@ export default class ArtList extends Component {
             <Art art={art} />
           ))}
         </div>
+        <p>
+          For more of my artwork, check out {""}
+          <a href="https://www.instagram.com/jessingsketching">
+            @jessingsketching
+          </a>
+        </p>
       </section>
     );
   }

@@ -117,7 +117,11 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.art-list p {
   margin-bottom: 2rem;
+  text-align: center;
 }
 .art-img-pic {
   padding: 1rem;
