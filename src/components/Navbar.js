@@ -16,7 +16,7 @@ export default class Navbar extends Component {
         <div className="nav-center">
           <div className="nav-header">
             <Link to="/" className="navname">
-              Jessica Landis
+              Jess Landis
             </Link>
             <button
               type="button"
