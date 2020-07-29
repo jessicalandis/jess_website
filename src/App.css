@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 :root {
   --primaryColor: #a1d8ee;
@@ -17,7 +18,7 @@
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 body {
-  margin-top: 150px;
+  margin-top: 125px;
 }
 /*navbar*/
 /*while screen is less than 768px*/
@@ -28,6 +29,12 @@ body {
   width: 100%;
   background-color: var(--primaryColor);
 }
+.navname {
+  text-decoration: none;
+  color: var(--mainBlack);
+  font-family: "Sacramento", cursive;
+  font-size: 2rem;
+}
 .nav-header {
   padding: 1rem;
 }
@@ -37,12 +44,10 @@ body {
   cursor: pointer;
   outline: none;
   position: absolute;
-  top: 45px;
+  top: 5px;
   right: 50px;
 }
-.imgpic {
-  max-width: 5em;
-}
+
 .nav-icon {
   font-size: 1.5rem;
   color: var(--mainWhite);
@@ -51,21 +56,23 @@ body {
   height: 0;
   overflow: hidden;
   list-style-type: none;
+  padding: 0.5rem;
+  color: var(--mainGrey);
 }
 .nav-links a {
   display: block;
   text-decoration: none;
-  padding: 1rem 0;
-  color: var(--mainWhite);
+
+  color: var(--mainBlack);
   text-align: center;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 100;
 }
 .nav-links a:hover {
   color: var(--mainGrey);
 }
 .show-nav {
-  height: 250px;
+  height: 100px;
 }
 /*navbar when screen is greater than 768px*/
 
@@ -78,13 +85,17 @@ body {
     grid-template-columns: 3fr auto;
   }
   .nav-links {
-    height: auto;
+    height: 50%;
+    margin: auto;
     display: flex;
-    margin: 1rem;
-    padding-right: 3rem;
+    text-align: center;
+    padding-right: 2rem;
+    color: var(--mainWhite);
   }
   .nav-links a {
-    margin: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: var(--mainWhite);
   }
 }
 
