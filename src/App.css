@@ -18,7 +18,7 @@
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 body {
-  margin-top: 125px;
+  margin-top: 6rem;
 }
 /*navbar*/
 /*while screen is less than 768px*/
@@ -27,7 +27,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--primaryColor);
+  background-color: var(--mainWhite);
 }
 .navname {
   text-decoration: none;
@@ -37,6 +37,8 @@ body {
 }
 .nav-header {
   padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .nav-btn {
   background: transparent;
@@ -50,7 +52,7 @@ body {
 
 .nav-icon {
   font-size: 1.5rem;
-  color: var(--mainWhite);
+  color: var(--primaryColor);
 }
 .nav-links {
   height: 0;
@@ -60,14 +62,14 @@ body {
 .nav-links a {
   display: block;
   text-decoration: none;
-  color: var(--mainWhite);
+  color: var(--mainBlack);
   text-align: center;
   font-size: 1rem;
   font-weight: bold;
   padding: 0.3rem;
 }
 .nav-links a:hover {
-  color: var(--mainGrey);
+  color: var(--primaryColor);
 }
 .show-nav {
   height: 140px;
@@ -81,6 +83,8 @@ body {
   .nav-center {
     display: grid;
     grid-template-columns: 3fr auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .nav-links {
     height: 50%;
@@ -89,12 +93,12 @@ body {
     text-align: center;
     padding-right: 2rem;
     padding-top: 0.5rem;
-    color: var(--mainWhite);
+    color: var(--mainBlack);
   }
   .nav-links a {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    color: var(--mainWhite);
+    color: var(--mainBlack);
   }
 }
 
@@ -107,7 +111,7 @@ body {
   margin-bottom: 5rem;
 }
 .art-list-1 {
-  margin: 1rem;
+  margin: 2rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
