@@ -6,7 +6,7 @@ export const cityData = [
     name: "Istanbul",
     date: "July 2019",
     info:
-      "My most recent travel was to Istanbul in July 2019. My partner is Turkish, so it was time to see his hometown and the culture and history of the bridge between East and West. Literally, there's a bridge (actually there are a few) that connects Istanbul's Asian side to the European side. Some of the highlights of my trip included a typical Turkish Brunch on the Bosporus, a ferry ride from Üsküdar to Bebek, touring various Mosques, and visiting the top of Galata Tower. Some of the best food was İskender kebap, homemade köfte, and of course Turkish coffee. I can't wait for my next trip to explore even more!",
+      "My most recent travel was to Istanbul, the bridge between East and West. Literally, there's a bridge (actually there are a few) that connects Istanbul's Asian side to the European side. Some of the highlights of my trip included a typical Turkish Brunch on the Bosporus, a ferry ride from Üsküdar to Bebek, touring various Mosques, and visiting the top of Galata Tower. Some of the best food was İskender kebap, homemade köfte, and of course Turkish coffee. I can't wait for my next trip to explore even more!",
   },
   {
     id: 2,
