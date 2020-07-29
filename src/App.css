@@ -111,12 +111,13 @@ body {
   margin-bottom: 5rem;
 }
 .art-list-1 {
-  margin: 2rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .art-img-pic {
   padding: 1rem;
@@ -130,10 +131,8 @@ body {
     margin-left: 2rem;
     margin-right: 2rem;
   }
-
-  .art-img-pic {
-    max-width: 15rem;
-    padding: 1rem;
+  .art-list-1 {
+    margin-top: 1rem;
   }
 }
 
@@ -146,16 +145,9 @@ body {
   margin-bottom: 4rem;
   color: var(--darkGrey);
 }
-.about-img-container img {
-  max-width: 15rem;
-  margin-bottom: 1rem;
-}
 
 .info-container {
-  margin-top: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -163,7 +155,10 @@ body {
   justify-content: center;
   line-height: 1.2rem;
 }
-
+.about-img-container img {
+  max-width: 15rem;
+  margin-bottom: 1rem;
+}
 .about-list-1 {
   display: flex;
   flex-wrap: wrap;
@@ -171,6 +166,7 @@ body {
   justify-content: space-around;
   align-items: center;
   text-align: center;
+  margin-bottom: 2rem;
 }
 .about-img-pic {
   margin-top: 2rem;
@@ -267,8 +263,9 @@ body {
 .coding-div {
   display: grid;
   text-align: center;
-  padding-top: 1rem;
+  margin-top: 2rem;
   color: var(--darkGrey);
+  margin-bottom: 2rem;
 }
 @media screen and (min-width: 768px) {
   .coding-container {
@@ -299,6 +296,7 @@ body {
 }
 .cityList {
   margin: 3rem;
+  margin-bottom: 2rem;
 }
 .allcities {
   display: grid;
@@ -335,7 +333,7 @@ body {
     justify-content: space-evenly;
   }
   .cityList {
-    margin: 1.5rem;
+    margin: 2rem;
   }
   .travel-text-container {
     margin-left: 0;
