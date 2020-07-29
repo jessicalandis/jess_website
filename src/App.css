@@ -145,7 +145,7 @@ body {
   color: var(--darkGrey);
 }
 .about-img-container img {
-  max-width: 300px;
+  max-width: 15rem;
   margin-bottom: 1rem;
 }
 .extra-pics {
@@ -177,8 +177,8 @@ body {
   margin-right: 2rem;
   margin-left: 2rem;
   margin-bottom: 0.5rem;
-  max-width: 275px;
-  max-height: 400px;
+  max-height: 17rem;
+  object-fit: contain;
 }
 
 .about-p {
@@ -217,7 +217,7 @@ body {
 
   .about-info1 img {
     justify-content: center;
-    max-height: 20rem;
+    max-height: 17rem;
   }
   .about-text {
     padding-left: 1.5rem;
@@ -292,8 +292,7 @@ body {
   padding-bottom: 2rem;
 }
 .travel-img-pic {
-  max-width: 300px;
-  max-height: 400px;
+  max-width: 15rem;
 }
 .travel-text-container {
   margin-left: 1.5rem;
