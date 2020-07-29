@@ -115,9 +115,8 @@ body {
   align-items: center;
 }
 .art-img-pic {
-  padding: 2rem;
-  max-width: 250px;
-  max-height: 400px;
+  padding: 1rem;
+  max-width: 15rem;
 }
 /*art page while screen less than 768*/
 @media screen and (max-width: 768px) {
@@ -127,14 +126,10 @@ body {
     margin-left: 2rem;
     margin-right: 2rem;
   }
-  .art-piece {
-    margin: 0.5rem;
-    max-width: 500px;
-  }
 
   .art-img-pic {
-    max-width: 200px;
-    padding: 1.5rem;
+    max-width: 15rem;
+    padding: 1rem;
   }
 }
 
