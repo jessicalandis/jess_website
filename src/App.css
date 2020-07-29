@@ -56,21 +56,21 @@ body {
   height: 0;
   overflow: hidden;
   list-style-type: none;
-  color: var(--mainGrey);
 }
 .nav-links a {
   display: block;
   text-decoration: none;
-  color: var(--mainBlack);
+  color: var(--mainWhite);
   text-align: center;
   font-size: 1rem;
   font-weight: bold;
+  padding: 0.3rem;
 }
 .nav-links a:hover {
   color: var(--mainGrey);
 }
 .show-nav {
-  height: 100px;
+  height: 140px;
 }
 /*navbar when screen is greater than 768px*/
 
@@ -321,6 +321,7 @@ body {
   }
   .travel-text-container h1 {
     padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     text-align: center;
   }
   .travel-text-container h4 {

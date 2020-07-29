@@ -3,7 +3,7 @@ export const aboutData = [
     id: 1,
     img: "./images/desk.jpeg",
     info: "Me in my art studio",
-    more: "Click to the pic to see more of my art",
+    more: "Click the pic to see more of my art",
     click: "/artwork",
   },
   {
