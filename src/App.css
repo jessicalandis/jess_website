@@ -98,12 +98,12 @@ body {
   }
 }
 
-/*art page css*/
+/*art page css while screen full size*/
 .art-list {
   border: 2px solid var(--mainGrey);
   margin-top: 5rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
   margin-bottom: 5rem;
 }
 .art-list-1 {
@@ -119,10 +119,13 @@ body {
   max-width: 250px;
   max-height: 400px;
 }
+/*art page while screen less than 768*/
 @media screen and (max-width: 768px) {
   .art-list {
     flex-direction: column;
     justify-content: space-evenly;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .art-piece {
     margin: 0.5rem;
@@ -135,22 +138,20 @@ body {
   }
 }
 
-/*home/about section*/
+/*home/about section when screen small*/
 .container {
   border: 2px solid var(--mainGrey);
-  margin-top: 5rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  margin-bottom: 5rem;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
   color: var(--darkGrey);
 }
 .about-img-container img {
   max-width: 15rem;
   margin-bottom: 1rem;
 }
-.extra-pics {
-  max-width: 150px;
-}
+
 .info-container {
   margin-top: 2rem;
   margin-left: 2rem;
@@ -203,16 +204,24 @@ body {
   padding-bottom: 0.5rem;
   font-size: 1rem;
 }
-
+/*home about when screen large*/
 @media screen and (min-width: 768px) {
+  .container {
+    border: 2px solid var(--mainGrey);
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    color: var(--darkGrey);
+  }
   .info-container {
     display: grid;
     grid-template-columns: 1fr auto;
     text-align: left;
-    margin-top: 2rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
   }
 
   .about-info1 img {
@@ -242,8 +251,7 @@ body {
 /*coding page*/
 
 .codingpic {
-  max-width: 300px;
-  min-width: 250px;
+  max-width: 15rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -255,8 +263,8 @@ body {
 .coding-container {
   border: 2px solid var(--mainGrey);
   margin-top: 5rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-bottom: 5rem;
 }
 .coding-div {
@@ -264,7 +272,12 @@ body {
   text-align: center;
   padding-top: 1rem;
 }
-
+@media screen and (min-width: 768px) {
+  .coding-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
 /*footer*/
 .footer {
   text-align: center;
@@ -279,8 +292,8 @@ body {
   border: 2px solid var(--mainGrey);
   color: var(--darkGrey);
   margin-top: 5rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
   margin-bottom: 5rem;
 }
 .cityList {
@@ -305,6 +318,14 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .travel-comp {
+    border: 2px solid var(--mainGrey);
+    color: var(--darkGrey);
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+  }
   .allcities {
     display: flex;
     flex-wrap: wrap;
