@@ -1,5 +1,36 @@
 export const artData = [
   {
+    id: 13,
+    img: "./images/bear.jpeg",
+    info: "",
+  },
+  {
+    id: 14,
+    img: "./images/lavender.jpeg",
+    info: "",
+  },
+  {
+    id: 15,
+    img: "./images/whale.jpeg",
+    info: "",
+  },
+  {
+    id: 16,
+    img: "./images/holdingcoffee.jpeg",
+    info: "",
+  },
+  {
+    id: 17,
+    img: "./images/flowerhair.jpeg",
+    info: "",
+  },
+  {
+    id: 18,
+    img: "./images/anxiety.jpeg",
+    info: "",
+  },
+
+  {
     id: 1,
     img: "./images/flowers.jpeg",
     info: "Inspired by Donna Schuster's original work",
