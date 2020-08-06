@@ -17,7 +17,7 @@ export default class ArtList extends Component {
         </div>
         <p>
           For more of my artwork, check out {""}
-          <a href="https://www.instagram.com/jessingsketching">
+          <a href="https://www.instagram.com/jessingsketching" target="_blank">
             @jessingsketching
           </a>
         </p>

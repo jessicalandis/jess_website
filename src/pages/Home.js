@@ -24,15 +24,24 @@ export default class Home extends Component {
               on my own using JavaScript, React, HTML, and CSS. Enjoy taking a
               look through my artwork and travel diaries. Drop me a note on
               Instagram on my drawing{" "}
-              <a href="https://www.instagram.com/jessingsketching">
+              <a
+                href="https://www.instagram.com/jessingsketching"
+                target="_blank"
+              >
                 (@jessingsketching)
               </a>{" "}
               or personal{" "}
-              <a href="https://www.instagram.com/lawofthelandis">
+              <a
+                href="https://www.instagram.com/lawofthelandis"
+                target="_blank"
+              >
                 (@lawofthelandis)
               </a>{" "}
               account if you want. Also feel free to connect on {""}
-              <a href="https://www.linkedin.com/in/jessica-landis-1b40b984/">
+              <a
+                href="https://www.linkedin.com/in/jessica-landis-1b40b984/"
+                target="_blank"
+              >
                 LinkedIn
               </a>
               {""} for any professional inquiries <FaRegSmile />
