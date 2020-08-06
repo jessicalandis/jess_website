@@ -7,7 +7,7 @@ export default class Coding extends Component {
       <div className="coding-container">
         <div className="coding-div">
           <h2>
-            <a href="https://www.github.com/jessicalandis">
+            <a href="https://www.github.com/jessicalandis" target="_blank">
               Visit my Github Here
             </a>
           </h2>
