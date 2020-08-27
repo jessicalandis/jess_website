@@ -22,20 +22,13 @@ export default class Home extends Component {
               as well! Talk about killing two birds with one stone (minus the
               actual harming of birds, of course.) I built this website entirely
               on my own using JavaScript, React, HTML, and CSS. Enjoy taking a
-              look through my artwork and travel diaries. Drop me a note on
-              Instagram on my drawing{" "}
+              look through my artwork and travel diaries. Drop me a note on my
+              Instagram{" "}
               <a
                 href="https://www.instagram.com/jessingsketching"
                 target="_blank"
               >
                 (@jessingsketching)
-              </a>{" "}
-              or personal{" "}
-              <a
-                href="https://www.instagram.com/lawofthelandis"
-                target="_blank"
-              >
-                (@lawofthelandis)
               </a>{" "}
               account if you want. Also feel free to connect on {""}
               <a
